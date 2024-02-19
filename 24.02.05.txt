@@ -1,0 +1,29 @@
+1. iframe : 웹 페이지 안에서 프레임을 만들고 여기에 다른 웹 페이지를 표시하고자 할 때 사용한다.
+   ex - <iframe src  inner.html width="300 height="200"> </iframe>
+
+2. 링크의 target 속성으로 사용될 수 있는 iframe.
+   : 사용자가 링크를 누르면 iframe 안에서 웹페이지가 표시되도록 사용할 수 있다.
+     (name 속성을 사용하여 링크에서 작성할 웹페이지의 이름을 지정한다.)
+
+    ex) <iframe src="" name="iframe1"></iframe>
+	 <p> <a href="http://www.w3.org" target="iframe1"> 월드와이드 컨소지엄  </a></p>
+
+    ( -> 링크의 target 속성은 iframe에서 지정된 이름을 참조해야 함.)
+
+
+3. <textarea> : iframe으로 HTML 소스를 보여주고자 할 때 사용한다.
+                   ( <textarea rows="5" cols="56">
+		      .
+		      .
+		      .
+		     </textarea>  )
+
+
+4. <div> : 블록 수준의 요소로써 HTML 요소들을 논리적인 섹션으로 나누어 묶는 컨테이너이다.
+
+5. <span> : 인라인 요소로써 텍스트를 위한 컨테이너이다. (텍스트 강조)
+
+ --> <div>와 <span> 모두 css와 함께 사용되어 스타일 속성을 설정할 수 있다.
+
+
+
